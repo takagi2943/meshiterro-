@@ -1,0 +1,2 @@
+class HomusController < ApplicationController
+end
