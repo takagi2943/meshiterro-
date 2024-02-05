@@ -1,5 +1,6 @@
 class PostImage < ApplicationRecord
-
+  attribute :shop_name, :string
+  attribute :caption, :text
   has_one_attached :image
   belongs_to :user
 
