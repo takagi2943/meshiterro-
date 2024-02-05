@@ -24,6 +24,7 @@ class PostImagesController < ApplicationController
     post_image = PostImage.find(params[:id]) #データ（レコード）を1件取得
     post_image.destroy #データ（レコード）を削除
     redirect_to '/post_images'
+  end
 
 
   # 投稿データのストロングパラメータ
